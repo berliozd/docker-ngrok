@@ -25,7 +25,7 @@ RUN set -x \
       x86)     NGROKARCH="386" ;; \
       x86_64)  NGROKARCH="amd64" ;; \
     esac \
- && curl -Lo /ngrok.tgz https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-$NGROKARCH.tgz \
+ && curl -Lo /ngrok.tgz https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz \
  && tar -xzf /ngrok.tgz \
  && mv /ngrok /bin \
  && chmod 755 /bin/ngrok \
