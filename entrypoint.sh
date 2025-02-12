@@ -97,5 +97,6 @@ else
 fi
 
 echo $ARGS
+echo "here"
 
 exec $ARGS
